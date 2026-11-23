@@ -1,0 +1,25 @@
+.big{font-size:20px;font-weight:700;letter-spacing:-.01em}
+.row.deck .t{gap:3px}
+.row.deck .bar{margin-top:5px;height:4px}
+.ref{margin:12px 4px 0;font-size:12px;color:var(--muted);line-height:1.4}
+.card.item{position:relative;margin-bottom:8px;padding:10px 44px 10px 10px}
+.card.item .del{position:absolute;right:6px;top:8px;width:32px;height:32px;display:grid;place-items:center;color:var(--muted)}
+.card.item .del svg{width:17px;height:17px}
+.tbar{flex:none;margin:0 16px 6px;height:4px}
+.tbar i{background:var(--text);transition:width .2s linear}
+.tbar.chrono i{background:var(--orange)}
+.play{display:flex;flex-direction:column}
+.qcard{background:var(--card);border-radius:18px;padding:22px 18px;margin-top:10px;min-height:150px;display:flex;flex-direction:column;justify-content:center;gap:10px;text-align:center}
+.qcard small{font-size:12px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+.qcard .q{font-size:23px;font-weight:600;line-height:1.3;letter-spacing:-.01em}
+.qcard .q.word{font-size:34px;letter-spacing:.08em}
+.qcard.back{min-height:110px;background:var(--card2)}
+.qcard .a{font-size:20px;font-weight:600;line-height:1.35}
+.opts{display:flex;flex-direction:column;gap:8px;margin-top:14px}
+.opt{min-height:54px;padding:10px 16px;border-radius:14px;background:var(--card);font-size:16px;font-weight:500;line-height:1.3;text-align:left}
+.opt.good{background:rgba(48,209,88,.22);box-shadow:inset 0 0 0 1.5px var(--green)}
+.opt.bad{background:rgba(255,69,58,.2);box-shadow:inset 0 0 0 1.5px var(--danger)}
+.spell{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin-top:14px}
+.spell span{padding:6px 11px;border-radius:9px;background:var(--card);font-size:15px;font-weight:500}
+.score{font-size:54px;font-weight:700;letter-spacing:-.03em;line-height:1}
+.play .acts{margin-top:16px}
